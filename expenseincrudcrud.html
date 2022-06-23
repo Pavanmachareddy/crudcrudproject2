@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Project2 in javascript</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+  </head>
+  <body>
+    <header>
+      <h1>Integrated Expense Tracker</h1>
+    </header>
+
+    <section class="container">
+      <form id="my-form">
+        <!-- <h1>Add User</h1> -->
+        <div class="msg"></div>
+        <div>
+          <label for="Expenseamount">Choose expenseamount:</label>
+          <input type="text" id="Expenseamount" name="Eamount">
+        </div><br>
+        <div>
+          <label for="description">Choose description:</label>
+          <input type="text" id="description" name="Edescription">
+        </div><br>
+        <div>
+            <label for="Category">Choose a category:</label>
+            <input type="text" id="Category" name="Ecategory">
+          </div><br>
+        <input class="btn" type="submit" value="Add Expense">
+      </form>
+
+      <ul id="listOfExpense"></ul>
+
+      <!-- <ul class="items">
+        <li class="item">Item 1</li>
+        <li class="item">Item 2</li>
+        <li class="item">Item 3</li>
+      </ul> -->
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0-alpha.1/axios.min.js"></script>
+
+    <script src="expenseincrudcrud.js"></script>
+  
+  </body>
+</html>
