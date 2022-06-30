@@ -17,18 +17,21 @@
         <!-- <h1>Add User</h1> -->
         <div class="msg"></div>
         <div>
-          <label for="Expenseamount">Choose expenseamount:</label>
-          <input type="text" id="Expenseamount" name="Eamount">
-        </div><br>
-        <div>
-          <label for="description">Choose description:</label>
-          <input type="text" id="description" name="Edescription">
-        </div><br>
-        <div>
-            <label for="Category">Choose a category:</label>
-            <input type="text" id="Category" name="Ecategory">
-          </div><br>
-        <input class="btn" type="submit" value="Add Expense">
+          <div style="display: flex;">
+            <label for="Expenseamount">Choose expenseamount:</label>
+            <input type="text" id="Expenseamount" name="Eamount">
+          </div>
+          <div>
+            <label for="description">Choose description:</label>
+            <input type="text" id="description" name="Edescription">
+          </div>
+          <div>
+              <label for="Category">Choose a category:</label>
+              <input type="text" id="Category" name="Ecategory">
+            </div>
+          <input class="btn" type="submit" value="Add Expense">
+        </div>
+        
       </form>
 
       <ul id="listOfExpense"></ul>
